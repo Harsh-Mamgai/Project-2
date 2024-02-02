@@ -1,0 +1,80 @@
+img{
+    width: 104px;
+    height: 144px;
+}
+.card{
+    width: 50%;
+    margin-top:12px;
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+.hy{
+    display: flex;
+    gap: 154px;
+}
+.img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.intro{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 49px;
+    text-align: center;
+}
+.patta{
+    margin-bottom: 7px;
+    margin-left: 32px;
+    padding: 2px;
+}
+p{
+    margin-left: 15px;
+}
+@media only screen and (min-width: 565px) and (max-width: 770px){
+    .hy{
+        display: flex;
+        gap: 50px;
+    }
+    .img{
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+    .patta{
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 429px) and (max-width: 565px){
+    .hy{
+        display: flex;
+        gap: 14px;
+    }
+    .img{
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+    .patta{
+        font-size: 12px;
+        width: 324px;
+    }
+}
+@media only screen and (max-width: 429px){
+    .hy{
+        display: flex;
+        gap: 14px;
+    }
+    .img{
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+    .patta{
+        font-size: 12px;
+        width: 324px;
+    }
+}
